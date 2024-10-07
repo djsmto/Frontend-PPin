@@ -1,0 +1,39 @@
+.settings-page {
+  padding: 20px;
+}
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.switch {
+  width: 60px; /* 스위치의 너비 */
+  height: 30px; /* 스위치의 높이 */
+  background-color: #ccc; /* 비활성 상태 배경색 */
+  border-radius: 15px; /* 둥글게 처리 */
+  position: relative;
+  cursor: pointer; /* 클릭 가능한 커서 */
+  transition: background-color 0.2s; /* 배경색 전환 애니메이션 */
+}
+
+.switch.active {
+  background-color: #4CAF50; /* 활성 상태 배경색 */
+}
+
+.slider {
+  width: 28px; /* 슬라이더의 너비 */
+  height: 28px; /* 슬라이더의 높이 */
+  background-color: white; /* 슬라이더의 배경색 */
+  border-radius: 50%; /* 둥글게 처리 */
+  position: absolute;
+  top: 1px; /* 상단 여백 */
+  left: 1px; /* 좌측 여백 */
+  transition: transform 0.2s; /* 슬라이더 전환 애니메이션 */
+}
+
+.switch.active .slider {
+  transform: translateX(30px); /* 슬라이더 이동 */
+}

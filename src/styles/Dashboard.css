@@ -1,0 +1,104 @@
+.dashboard-container {
+  display: flex;
+}
+
+.user-info, .top-buttons{
+  padding: 10px;
+}
+
+.add-widget-button {
+  margin-left: 10px;
+}
+
+.dashboard-content {
+  padding: 20px;
+  flex-grow: 1;
+  transition: margin-left 0.3s ease;
+}
+
+.user-info {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.top-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.lock-button {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 2em;
+  color: #000;
+}
+
+.add-widget-button {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-widget-button:hover {
+  background-color: #218838;
+}
+
+.widget {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.widget-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.widget-header-locked {
+  background-color: #f0f0f0;
+}
+
+.remove-widget-button {
+  background: none;
+  border: none;
+  color: #ff4d4d;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.remove-widget-button:hover {
+  color: #ff1a1a;
+}
+
+.widget-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.widget-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+} 

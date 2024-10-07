@@ -1,6 +1,6 @@
 // src/components/Board.js
 import React, { useState } from 'react';
-import './Board.css';
+import '../styles/Board.css';
 
 const Board = () => {
   const [posts, setPosts] = useState([

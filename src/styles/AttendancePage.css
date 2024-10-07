@@ -1,0 +1,59 @@
+.attendance-table-container {
+  padding: 20px;
+}
+
+.attendance-table-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.attendance-table-navigation {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.attendance-table-navigation button {
+  margin: 0 10px;
+}
+
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.attendance-table-header {
+  background-color: #f2f2f2;
+}
+
+.attendance-table-header-cell {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.attendance-table-header-cell.sunday {
+  color: red; /* 일요일은 빨간색 */
+}
+
+.attendance-table-header-cell.saturday {
+  color: blue; /* 토요일은 파란색 */
+}
+
+.attendance-table-row {
+  background-color: #fff;
+}
+
+.attendance-table-cell {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.attendance-missing {
+  color: red; /* 현재 날짜 이전의 출퇴근 기록이 없는 경우 빨간색으로 표시 */
+}
+
+.today-cell {
+  background-color: yellow; /* 오늘 날짜 칸 배경색을 노란색으로 변경 */
+}

@@ -1,12 +1,11 @@
 // src/components/Profile.js
 import React, { useState } from 'react';
-import './Profile.css';
+import '../styles/Profile.css';
 
 const Profile = () => {
   const [profile, setProfile] = useState({
     name: '김시훈',
     email: 'rlatlgns4500@kakao.com',
-    bio: '안녕하세요, 김시훈입니다.',
   });
   const [isEditing, setIsEditing] = useState(false);
   const [editedProfile, setEditedProfile] = useState(profile);

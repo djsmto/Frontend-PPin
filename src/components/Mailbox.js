@@ -1,6 +1,6 @@
 // src/components/Mailbox.js
 import React, { useState } from 'react';
-import './Mailbox.css';
+import '../styles/Mailbox.css';
 
 const Mailbox = () => {
   const [messages, setMessages] = useState([

@@ -1,0 +1,28 @@
+.document-page {
+  display: flex;
+}
+
+.document-content {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.create-document-button {
+  margin-bottom: 20px;
+}
+
+.document-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.document-table th,
+.document-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.document-table th {
+  background-color: #f2f2f2;
+}
